@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+}
+.sidebar {
+  flex-basis: 33.33%;
+  background-color: hsl(268, 84%, 70%);;
+}
+.main-content {
+  flex-grow: 1;
+  background-color:hsl(271, 62%, 90%);
+}
+
+.subrayar{
+  text-decoration: underline;
+}
+.Dcontacto{
+  display:flex;
+}
+
+.logo-img{
+  width: 30px;
+  height: 35px;
+}
+
+.ftcv-img{
+  margin: 30px;
+  width: 160px;
+  height: 175px;
+}
+.direc-img{
+  margin: 10px;
+  width: 25px;
+  height: 30px;
+}
+.tel-img{
+  margin: 10px;
+  width: 35px;
+  height: 40px;
+}
+.mail-img{
+  margin: 10px;
+  width: 25px;
+  height: 30px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  width: 21cm;
+  height: 29.7cm;
+}
+
+h1 {
+  color: #480655;
+  margin: 40px;
+}
+
+
+h2 {
+  color: #000000;
+}
+
+
+p {
+  margin-bottom: 10px;
+}
+
+
+.section {
+  margin-bottom: 30px;
+}
+
+
+.section-title {
+  font-weight: bold;
+}
+
+
+.subsection {
+  margin-left: 20px;
+  display: flex;
+}
+
+.tjo {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.subsection-title {
+  font-weight: bold;
+}
